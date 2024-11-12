@@ -2,7 +2,7 @@
 <style>
   div.drop-overlay {
     position: absolute;
-    justify-content: center;
+    justify-content: left ;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -19,7 +19,7 @@
 
   div.message {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     color: white;
     width: 100%;
     height: fit-content;
