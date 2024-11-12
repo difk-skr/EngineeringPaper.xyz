@@ -44,7 +44,7 @@
       },
     };
 
-    quill = new Quill(editorDiv, {
+    const quill = new Quill(editorDiv, {
       modules: {
         toolbar: [
           [{ header: [1, 2, 3, false] }],
@@ -52,6 +52,8 @@
           [{list: 'ordered'}, {list: 'bullet'}],
           ['link', 'image'],
           ['clean']
+          [{color:[]}],
+          [{background:[]}]
         ], 
         keyboard: {
           bindings: bindings
